@@ -1,0 +1,46 @@
+header {
+	background-color: #696969;
+	box-shadow: 0 5px 10px #565656;
+}
+
+header a {
+	color: white;
+}
+
+.header__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	height: 60px;
+}
+
+.burger__item{
+	height: 3px;
+	width: 30px;
+	margin-bottom: 5px;
+	background-color: white;
+}
+
+.header__logo {
+	font-weight: 900;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-left: 5px;
+}
+
+@media screen and (max-width:767px){
+	header {
+	width: 100vw;
+}
+
+	.header__container {
+	height: 50px;
+}
+}
+
+@media screen and (max-width:1024px){
+	.header__container {
+	height: 70px;
+}
+}
